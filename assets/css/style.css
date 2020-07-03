@@ -2105,7 +2105,7 @@ p {
 .footer-area {
   background-color: #DAEAE4;
   position: relative;
-  height: 750px;
+  height: 450px;
   z-index: 5; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .footer-area {
@@ -2116,27 +2116,27 @@ p {
   .footer-area::before {
     position: absolute;
     content: '';
-    background-image: url(../images/footer-bg.png);
+    background-color: #000311;
     background-position: top center;
     background-size: cover;
     width: 100%;
-    height: 750px;
+    height: 450px;
     left: 0;
     bottom: 0;
     z-index: -1; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .footer-area::before {
-        height: 1200px;
+        height: 450px;
         background-position: 95% 0%; } }
     @media (max-width: 767px) {
       .footer-area::before {
-        height: 1550px;
+        height: 450px;
         background-position: 55% 0%; } }
     @media only screen and (min-width: 576px) and (max-width: 767px) {
       .footer-area::before {
-        height: 1200px; } }
+        height: 450px; } }
   .footer-area.footer-2::before {
-    background-image: url(../images/footer-bg-2.png); }
+    background-color: #000311; }
 
 .footer-about .footer-content {
   padding-top: 15px; }
