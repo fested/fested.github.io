@@ -1,5 +1,5 @@
 ﻿@charset "UTF-8";
-.jdc-side { display: none; position: fixed; left: 40px; bottom: 100px; z-index: 300; width: 60px }
+.jdc-side { display: none; position: fixed; left: 20px; bottom: 40px; z-index: 300; width: 60px }
 .mod_hang_qrcode { position: relative }
 .mod-qr-tips { height: 70px; background: url(../images/qrtips.png) center no-repeat; background-size: 100% }
 .mod_hang_qrcode_show { display: none; position: absolute; left: 70px; top: -65px; width: 138px; min-height: 166px; border: 0 none; background: #fff; -webkit-box-shadow: 0 0 10px 0 rgba(20,34,67,.1); -moz-box-shadow: 0 0 10px 0 rgba(20,34,67,.1); box-shadow: 0 0 10px 0 rgba(20,34,67,.1) }

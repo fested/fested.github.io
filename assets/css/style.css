@@ -2103,7 +2103,7 @@ p {
        13.FOOTER css 
 ===========================*/
 .footer-area {
-  background-color: #DAEAE4;
+  background-color: #000311;
   position: relative;
   height: 450px;
   z-index: 5; }
@@ -2126,15 +2126,15 @@ p {
     z-index: -1; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .footer-area::before {
-        height: 450px;
+        height: 720px;
         background-position: 95% 0%; } }
     @media (max-width: 767px) {
       .footer-area::before {
-        height: 450px;
+        height: 930px;
         background-position: 55% 0%; } }
     @media only screen and (min-width: 576px) and (max-width: 767px) {
       .footer-area::before {
-        height: 450px; } }
+        height: 720px; } }
   .footer-area.footer-2::before {
     background-color: #000311; }
 
