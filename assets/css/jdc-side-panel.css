@@ -1,8 +1,8 @@
 ﻿@charset "UTF-8";
-.jdc-side { display: none; position: fixed; left: 20px; bottom: 40px; z-index: 300; width: 60px }
+.jdc-side { display: none; position: fixed; right: 20px; bottom: 40px; z-index: 300; width: 60px }
 .mod_hang_qrcode { position: relative }
 .mod-qr-tips { height: 70px; background: url(../images/qrtips.png) center no-repeat; background-size: 100% }
-.mod_hang_qrcode_show { display: none; position: absolute; left: 70px; top: -65px; width: 138px; min-height: 166px; border: 0 none; background: #fff; -webkit-box-shadow: 0 0 10px 0 rgba(20,34,67,.1); -moz-box-shadow: 0 0 10px 0 rgba(20,34,67,.1); box-shadow: 0 0 10px 0 rgba(20,34,67,.1) }
+.mod_hang_qrcode_show { display: none; position: absolute; right: 70px; top: -65px; width: 138px; min-height: 166px; border: 0 none; background: #fff; -webkit-box-shadow: 0 0 10px 0 rgba(20,34,67,.1); -moz-box-shadow: 0 0 10px 0 rgba(20,34,67,.1); box-shadow: 0 0 10px 0 rgba(20,34,67,.1) }
 .mod_hang_qrcode_show p { margin-top: 5px; line-height: 16px; color: #666; font-size: 12px; text-align: center }
 .mod_hang_qrcode_show_bg { width: 124px; height: 124px; margin: 8px auto 0; background-position: 0 0; background-repeat: no-repeat; -moz-background-size: 124px auto; background-size: 124px auto; background-image: url(../images/qrcode.png) }
 .jdc_hang_qrcode .mod_hang_qrcode_show_bg { background-image: url(../images/wechatFest.jpg) }
@@ -11,7 +11,7 @@
 .mod_hang_top { display: block; width: 60px; height: 60px; margin: 5px 0 0; text-align: center; cursor: pointer; -webkit-transition: all .25s ease; -moz-transition: all .25s ease; transition: all .25s ease; background-color: transparent }
 .mod_hang_qrcode:hover .mod_hang_qrcode_show { display: block }
 .mod_hang_qrcode_btn { position: relative; margin-top: 5px; text-align: center; background-color: transparent; -webkit-box-shadow: 0 0 10px 0 rgba(20,34,67,.1); -moz-box-shadow: 0 0 10px 0 rgba(20,34,67,.1); box-shadow: 0 0 10px 0 rgba(20,34,67,.1) }
-.mod_hang_qrcode_btn span { display: none; position: absolute; top: 25px; left: 25px; width: 30px; line-height: 15px; font-size: 12px; text-align: center }
+.mod_hang_qrcode_btn span { display: none; position: absolute; top: 25px; right: 25px; width: 30px; line-height: 15px; font-size: 12px; text-align: center }
 .mod_hang_qrcode_btn:hover { color: #fff }
 .mod_hang_top { -webkit-box-shadow: 0 0 10px 0 rgba(20,34,67,.1); -moz-box-shadow: 0 0 10px 0 rgba(20,34,67,.1); box-shadow: 0 0 10px 0 rgba(20,34,67,.1) }
 .mod_hang_top .mod_hang_qrcode_btn { background: 0 0; margin: 0 }
@@ -21,9 +21,9 @@
 
 
 .mod_hang_appeal_btn i, .mod_hang_qrcode_btn i { display: inline-block; width: 60px; height: 60px; line-height: 60px; font-size: 40px; color: #F47A4D; background-color: #fff }
-.mod_hang_appeal_btn span { display: none; position: absolute; top: 25px; left: 25px; width: 30px; line-height: 15px; font-size: 12px; text-align: center }
+.mod_hang_appeal_btn span { display: none; position: absolute; top: 25px; right: 25px; width: 30px; line-height: 15px; font-size: 12px; text-align: center }
 .mod_hang_appeal.show .mod_hang_appeal_show { display: block }
-.mod_hang_appeal_show { opacity: 0; z-index:-9; left:-500px; position: absolute; left: 70px; bottom: 0; background: #fff; -webkit-box-shadow: 0 0 10px 0 rgba(20,34,67,.1); -moz-box-shadow: 0 0 10px 0 rgba(20,34,67,.1); box-shadow: 0 0 10px 0 rgba(20,34,67,.1); width: 300px }
+.mod_hang_appeal_show { opacity: 0; z-index:-9; right:-500px; position: absolute; right: 70px; bottom: 0; background: #fff; -webkit-box-shadow: 0 0 10px 0 rgba(20,34,67,.1); -moz-box-shadow: 0 0 10px 0 rgba(20,34,67,.1); box-shadow: 0 0 10px 0 rgba(20,34,67,.1); width: 300px }
 .mod_hang_appeal_show li {
 *zoom:1; cursor: pointer }
 .mod_hang_appeal_show li:hover { background: #f3f5fb }
@@ -42,4 +42,4 @@
 }
 .jdc-lang-en .jdc_hang_qrcode .mod_hang_qrcode_show_bg { background-image: url(../images/qrcode-en.jpg) }
 .jdc-lang-en .mod-qr-tips { position: relative }
-.jdc-lang-en .mod-qr-tips:after { content: "Search"; position: absolute; left: 41px; top: 8px; width: 85px; height: 30px; line-height: 30px; background: #fff; color: #666; font-size: 16px }
+.jdc-lang-en .mod-qr-tips:after { content: "Search"; position: absolute; right: 41px; top: 8px; width: 85px; height: 30px; line-height: 30px; background: #fff; color: #666; font-size: 16px }
