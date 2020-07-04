@@ -1,5 +1,5 @@
 ﻿@charset "UTF-8";
-.jdc-side { display: none; position: fixed; right: 20px; top: 200px; z-index: 300; width: 60px }
+.jdc-side { display: none; position: fixed; right: 10px; top: 160px; z-index: 300; width: 60px }
 .mod_hang_qrcode { position: relative }
 .mod-qr-tips { height: 70px; background: url(../images/qrtips.png) center no-repeat; background-size: 100% }
 .mod_hang_qrcode_show { display: none; position: absolute; right: 70px; top: -65px; width: 138px; min-height: 166px; border: 0 none; background: #fff; -webkit-box-shadow: 0 0 10px 0 rgba(20,34,67,.1); -moz-box-shadow: 0 0 10px 0 rgba(20,34,67,.1); box-shadow: 0 0 10px 0 rgba(20,34,67,.1) }
@@ -8,7 +8,7 @@
 .jdc_hang_qrcode .mod_hang_qrcode_show_bg { background-image: url(../images/wechatFest.jpg) }
 .jdc_hang_qrcode p { padding-bottom: 5px }
 .mod_hang_qrcode_btn { display: block; width: 50px; height: 50px; color: #F47A4D; font-size: 40px; cursor: pointer; -webkit-transition: all .25s ease; -moz-transition: all .25s ease; transition: all .25s ease }
-.mod_hang_top { display: block; width: 50px; height: 50px; margin: 5px 0 0; text-align: center; cursor: pointer; -webkit-transition: all .25s ease; -moz-transition: all .25s ease; transition: all .25s ease; background-color: transparent }
+.mod_hang_top { display: block; width: 50px; height: 50px; margin: 0 0 0; text-align: center; cursor: pointer; -webkit-transition: all .25s ease; -moz-transition: all .25s ease; transition: all .25s ease; background-color: transparent }
 .mod_hang_qrcode:hover .mod_hang_qrcode_show { display: block }
 .mod_hang_qrcode_btn { position: relative; margin-top: 5px; text-align: center; background-color: transparent; -webkit-box-shadow: 0 0 10px 0 rgba(20,34,67,.1); -moz-box-shadow: 0 0 10px 0 rgba(20,34,67,.1); box-shadow: 0 0 10px 0 rgba(20,34,67,.1) }
 .mod_hang_qrcode_btn span { display: none; position: absolute; top: 25px; right: 25px; width: 30px; line-height: 15px; font-size: 12px; text-align: center }
